@@ -32,11 +32,11 @@ export default function Todolist() {
     
     return (
         <div>
-             <div className="maindiv">
+            <div className="maindiv">
                 <div className="header">
                      <h1>Manage Your Tasks...</h1>
                 </div> 
-
+              <div className="box">
                 <h2>Todo List</h2>
                 <div className="list"> 
                     <input type="text"
@@ -57,8 +57,8 @@ export default function Todolist() {
                    })} 
                 </div>
 
-                
-             </div>
+              </div>
+            </div>
             
         </div>
     )
