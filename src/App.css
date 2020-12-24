@@ -15,6 +15,8 @@
  }
 
  body {
+  background-image: url("https://media.istockphoto.com/vectors/completed-task-vector-illustration-isometric-design-vector-id1129124717?k=6&m=1129124717&s=170667a&w=0&h=g9nMMah_WGcegLlhr0ysPNm4aIHLV52PDSkP-ZuvMRg=");
+  background-repeat: no-repeat;
   
  }
 
@@ -28,6 +30,7 @@
     padding-top: 3rem;
     border-radius: 12px;
     min-height: 50em;
+    
   
  }
 
@@ -60,28 +63,29 @@
   margin: 3em 0 3em 0;
   font-size: 2em;
   letter-spacing: 3px;
+  text-align: center;
  }
 
 
 
  @media only screen and (max-width: 1366px)and (min-width: 999px){
   html{
-    font-size:62% ;
+    font-size:46% ;
   }
 }
 
  @media only screen and (max-width: 998x)and (min-width: 767px){
   html{
-    font-size:55% ;
+    font-size:39% ;
   }
 }
  @media only screen and (max-width: 768px)and (min-width: 376px){
     html{
-      font-size: 45%;
+      font-size: 32%;
     }
  }
  @media only screen and (max-width: 375px)and  {
   html{
-    font-size: 35%;
+    font-size: 28%;
   }
 }
