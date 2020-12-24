@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&family=Varela+Round&display=swap');
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Rowdies', cursive;
+   font-family: 'Varela Round', sans-serif;
+   
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ html{
+   font-size: 62%;
+   
+   
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ body {
+  
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+ }
+
+ li {
+   display: flex;
+  list-style: none;
+  margin: 2rem;
+  font-size: large;
+  font-family: 'Varela Round';
+ }
+
+ input {
+  padding-left: 1rem;
+  margin-right: 10px;
+  border-radius: 7px;
+  outline: none;
+ }
+ .maindiv{
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+ }
+ .header{
+  margin: 3em 0 3em 0;
+  font-size: 2em;
+  letter-spacing: 3px;
+ }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+ @media only screen and (max-width: 1366px)and (min-width: 999px){
+  html{
+    font-size:62% ;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+ @media only screen and (max-width: 998x)and (min-width: 767px){
+  html{
+    font-size:55% ;
+  }
+}
+ @media only screen and (max-width: 768px)and (min-width: 376px){
+    html{
+      font-size: 45%;
+    }
+ }
+ @media only screen and (max-width: 375px)and  {
+  html{
+    font-size: 35%;
   }
 }
